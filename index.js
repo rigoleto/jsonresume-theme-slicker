@@ -1,5 +1,10 @@
 var fs = require("fs");
 var Handlebars = require("handlebars");
+var moment = require('moment');
+
+Handlebars.registerHelper('niceDate', function(date) {
+	return moment(date).format('MMMM YYYY');
+});
 
 function render(resume) {
 	if (resume.basics && resume.basics.profiles.length > 0) {

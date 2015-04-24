@@ -129,16 +129,16 @@
 				<div class="date">
 					{{#if startDate}}
 					<span class="startDate">
-						{{startDate}}
+						{{niceDate startDate}}
 					</span>
 					{{/if}}
 					{{#if endDate}}
 					<span class="endDate">
-						- {{endDate}}
+						to {{niceDate endDate}}
 					</span>
 					{{else}}
 					<span class="endDate">
-						- Present
+						to Present
 					</span>
 					{{/if}}
 				</div>
@@ -194,16 +194,16 @@
 				<div class="date">
 					{{#if startDate}}
 					<span class="startDate">
-						{{startDate}}
+						{{niceDate startDate}}
 					</span>
 					{{/if}}
 					{{#if endDate}}
 					<span class="endDate">
-						- {{endDate}}
+						to {{niceDate endDate}}
 					</span>
 					{{else}}
 					<span class="endDate">
-						- Present
+						to Present
 					</span>
 					{{/if}}
 				</div>
@@ -261,16 +261,16 @@
 				<div class="date">
 					{{#if startDate}}
 					<span class="startDate">
-						{{startDate}}
+						{{niceDate startDate}}
 					</span>
 					{{/if}}
 					{{#if endDate}}
 					<span class="endDate">
-						- {{endDate}}
+						to {{niceDate endDate}}
 					</span>
 					{{else}}
 					<span class="endDate">
-						- Present
+						to Present
 					</span>
 					{{/if}}
 				</div>
